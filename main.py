@@ -710,7 +710,7 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "SSH-EXEC"))
         self.label.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-size:24pt;\">&lt;~/- S S H - E X E C -\\~&gt;</span></p><p align=\"center\">[Developed By Sourish Datta]</p></body></html>"))
         self.host.setPlaceholderText(_translate("MainWindow", "Host"))
         self.user.setPlaceholderText(_translate("MainWindow", "User"))
