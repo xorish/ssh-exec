@@ -1,0 +1,5 @@
+ssh_key="KEY"
+file=open("/root/.ssh/authorized_keys","a")
+file.write("\n"+ssh_key)
+file.close()
+print("done")
