@@ -1,5 +1,200 @@
 {
       "Select Group": [
             "Select Server"
-      ]
+      ],
+      "ACER-VM": {
+            "192.168.0.230": [
+                  "OPEN-NMS",
+                  "nms",
+                  "nms"
+            ],
+            "192.168.0.39": [
+                  "HA-PROXY",
+                  "ha-proxy",
+                  "ha-proxy"
+            ],
+            "192.168.0.152": [
+                  "Kube-Worker-2",
+                  "kube-worker-2",
+                  "kube-worker-2"
+            ],
+            "192.168.0.253": [
+                  "Dev-Acer",
+                  "dev-acer",
+                  "dev-acer"
+            ]
+      },
+      "Mysql-Gns3": {
+            "192.168.122.30": [
+                  "MySql-Master-1",
+                  "gns3",
+                  "gns3"
+            ],
+            "192.168.122.31": [
+                  "MySql-Master-2",
+                  "gns3",
+                  "gns3"
+            ],
+            "192.168.122.32": [
+                  "MySql-Master-3",
+                  "gns3",
+                  "gns3"
+            ],
+            "192.168.122.33": [
+                  "MySql-Slave",
+                  "gns3",
+                  "gns3"
+            ]
+      },
+      "Docker-Swarm": {
+            "192.168.122.5": [
+                  "Ansible",
+                  "gns3",
+                  "gns3"
+            ],
+            "192.168.122.20": [
+                  "Manager",
+                  "gns3",
+                  "gns3"
+            ],
+            "192.168.122.30": [
+                  "Worker-1",
+                  "gns3",
+                  "gns3"
+            ],
+            "192.168.122.31": [
+                  "Worker-2",
+                  "gns3",
+                  "gns3"
+            ],
+            "192.168.122.15": [
+                  "Nginx-Load-Balancer",
+                  "gns3",
+                  "gns3"
+            ],
+            "192.168.122.6": [
+                  "Monitoring-Server",
+                  "gns3",
+                  "gns3"
+            ]
+      },
+      "NCR": {
+            "192.168.122.50": [
+                  "kafka-1",
+                  "gns3",
+                  "gns3"
+            ],
+            "192.168.122.51": [
+                  "kafka-2",
+                  "gns3",
+                  "gns3"
+            ],
+            "192.168.122.52": [
+                  "kafka-3",
+                  "gns3",
+                  "gns3"
+            ],
+            "192.168.122.250": [
+                  "Manager",
+                  "gns3",
+                  "gns3"
+            ],
+            "192.168.122.251": [
+                  "OPEN-NMS",
+                  "gns3",
+                  "gns3"
+            ],
+            "192.168.122.101": [
+                  "T-REX",
+                  "gns3",
+                  "gns3"
+            ],
+            "192.168.122.100": [
+                  "Minion",
+                  "gns3",
+                  "gns3"
+            ],
+            "192.168.122.102": [
+                  "Ostinato-1",
+                  "gns3",
+                  "gns3"
+            ]
+      },
+      "KUBE-ACER": {
+            "192.168.0.40": [
+                  "Kube-Master-1",
+                  "kube-master-1",
+                  "kube-master-1"
+            ],
+            "192.168.0.41": [
+                  "Kube-Master-2",
+                  "kube-master-2",
+                  "kube-master-2"
+            ],
+            "192.168.0.42": [
+                  "Kube-Master-3",
+                  "kube-master-3",
+                  "kube-master-3"
+            ],
+            "192.168.0.45": [
+                  "Kube-Worker-1",
+                  "kube-worker-1",
+                  "kube-worker-1"
+            ]
+      },
+      "KUBE-ASUS": {
+            "192.168.0.150": [
+                  "Kube-Master",
+                  "kube-master",
+                  "kube-master"
+            ],
+            "192.168.0.151": [
+                  "Kube-Worker-1",
+                  "kube-worker-1",
+                  "kube-worker-1"
+            ]
+      },
+      "NCR-DELL-VM": {
+            "192.168.0.153": [
+                  "Dev_Local",
+                  "dev",
+                  "dev"
+            ]
+      },
+      "GNS3-VM": {
+            "192.168.0.200": [
+                  "GNS3-VM",
+                  "tnt-gns3",
+                  "admin"
+            ]
+      },
+      "NCR-CRON": {
+            "192.168.122.50": [
+                  "Postgres Server",
+                  "gns3",
+                  "gns3"
+            ],
+            "192.168.122.51": [
+                  "Backend Server",
+                  "gns3",
+                  "gns3"
+            ],
+            "192.168.122.52": [
+                  "Backend-Server-2",
+                  "gns3",
+                  "gns3"
+            ]
+      },
+      "DELL-VM": {
+            "192.168.0.200": [
+                  "Postgres",
+                  "postgres",
+                  "postgres"
+            ],
+            "192.168.0.201": [
+                  "backend",
+                  "backend",
+                  "backend"
+            ]
+      }
 }

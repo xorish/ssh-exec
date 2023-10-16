@@ -143,7 +143,7 @@ def connect_server(self, cursor):
                             cursor.insertText(
                                 f"\n {current_time()}: connection to jump-server {jump_host} is ok. ")
 
-                            ssh_cmd = f'''gnome-terminal -e "ssh -o StrictHostKeyChecking=no -J {jump_user}@{jump_host} {user}@{hostx}"'''
+                            ssh_cmd = f'''gnome-terminal -e "ssh -X -o StrictHostKeyChecking=no -J {jump_user}@{jump_host} {user}@{hostx}"'''
                             os.system(ssh_cmd)
                 file=open(f"{path}/latest_jump_server_info","w")
                 file.write(str([jump_host,jump_user,jump_password]))
@@ -162,7 +162,7 @@ def connect_server(self, cursor):
                 if check_status == "ola\n":
                     cursor.insertText(
                         f"\n {current_time()}: connection to server {hostx} in root-mode is ok. ")
-                    ssh_cmd = f'''gnome-terminal -e "ssh -o StrictHostKeyChecking=no root@{hostx}"'''
+                    ssh_cmd = f'''gnome-terminal -e "ssh -X -o StrictHostKeyChecking=no root@{hostx}"'''
                     os.system(ssh_cmd)
                 else:
 
@@ -177,7 +177,7 @@ def connect_server(self, cursor):
                 if check_status == "ola\n":
                     cursor.insertText(
                         f"\n {current_time()}: connection to server {hostx} in user mode is ok. ")
-                    ssh_cmd = f'''gnome-terminal -e "sshpass -p {password} ssh -o StrictHostKeyChecking=no {user}@{hostx}"'''
+                    ssh_cmd = f'''gnome-terminal -e "sshpass -p {password} ssh -X -o StrictHostKeyChecking=no {user}@{hostx}"'''
                     os.system(ssh_cmd)
                 else:
                     cursor.insertText(
